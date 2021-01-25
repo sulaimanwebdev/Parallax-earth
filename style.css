@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'AlphaCentauri';
+  src: url('Alphacentauri-MVY4p.ttf');l
+      
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body{
+	overflow-x: hidden;
+    background-color: black;
+}
+
+header{
+	width: 100%;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 60px;
+	color: white;
+}
+
+#para{
+	height: 100%;
+	width: 100%;
+}
+
+.logo h2{
+	letter-spacing: 0.7px;
+
+}
+
+
+
+#earthpara{
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.para-background{
+	width: 110vw;
+	height: 110vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter: brightness(0.6);
+}
+
+.para-background img{
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+
+.rock{
+	
+	position: absolute;
+	top: 20vh !important;
+	left: 10vw !important;
+	filter: brightness(0.5);
+	width: 120px !important;
+}
+
+.rock img{
+	width: 100% !important;
+}
+
+
+.earth{
+	width: 400px;
+	position: absolute;
+	top: 20vh !important;
+	left: 34vw !important;
+	filter: brightness(0.7);
+	z-index: 1;
+
+}
+
+.earth img{
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+
+.earth-text{
+
+	top: 35vh !important;
+	left: 30vw !important;
+	z-index: 1000;
+}
+
+
+
+.earth-text h1{
+	font-family: 'AlphaCentauri';
+	font-size: 7vw;
+	letter-spacing: 29px ;
+	color: white;
+}
+
+
+.main{
+	left: -150px !important;
+	bottom: -100px !important;
+	top: unset !important;
+    z-index: 200 !important;
+}
+
+.main img{
+	width: 100%;
+	left: -20px;
+	top: 20vh !important;
+	filter: brightness(0.8);
+	
+}
+
+
+
+.right{
+	right: -50px !important;
+	bottom: -200px !important;
+	top: 0 !important;
+	left: unset !important;
+	  z-index: 220 !important;
+
+}
+
+.right img{
+	width: 400px;
+height: 100vh;
+filter: brightness(0.5);
+}
+
